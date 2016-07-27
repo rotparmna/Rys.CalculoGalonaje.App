@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "160188975165",
+    "firebase_url": "https://admob-app-id-6249206725.firebaseio.com",
+    "project_id": "admob-app-id-6249206725",
+    "storage_bucket": "admob-app-id-6249206725.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:160188975165:android:c51b5ca2bf027e10",
+        "android_client_info": {
+          "package_name": "rys.calculogalonaje.app"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "160188975165-rfn9omh8doqh36gqqem8jiqqsishdhe1.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAv0Aa7Cz2-dbQpizTf_r1YnGx0Me9Q_fg"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

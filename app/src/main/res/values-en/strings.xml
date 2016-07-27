@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Calculation of Gallons</string>
+    <string name="CalcularGalonBoton">Calculate</string>
+    <string name="PesoNetoLabel">Net Weight</string>
+    <string name="APILabel">API</string>
+    <string name="GalonesLabel">Gallons</string>
+    <string name="BarrilesLabel">Barrels</string>
+    <string name="ApplicationName">Calculation of Gallons</string>
+    <string name="UnitIDAdMob">ca-app-pub-7808026045971053/7725939925</string>
+    <string name="MensajeFactorNoEncontrado">The factor is not found to the API {0}</string>
+    <string name="APIHint">API</string>
+    <string name="PesoNetoHint">Net Weight</string>
+</resources>
