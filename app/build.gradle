@@ -1,16 +1,16 @@
 apply plugin: 'com.android.application'
 
 android {
+    signingConfigs {
+    }
     compileSdkVersion 23
     buildToolsVersion "23.0.2"
-
-
     defaultConfig {
-        applicationId "rys.calculogalonaje.app"
+        applicationId 'rys.calculogalonaje2.app'
         minSdkVersion 21
         targetSdkVersion 23
-        versionCode 5
-        versionName "1.4"
+        versionCode 6
+        versionName '1.5'
         testInstrumentationRunner "android.support.test.runner.AndroidJUnitRunner"
     }
     buildTypes {
@@ -19,18 +19,17 @@ android {
             proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
         }
     }
+    productFlavors {
+    }
 }
 
 dependencies {
-    compile fileTree(dir: 'libs', include: ['*.jar'])
+    compile fileTree(include: ['*.jar'], dir: 'libs')
     androidTestCompile 'junit:junit:4.12'
     compile 'com.android.support:appcompat-v7:23.1.1'
-
     androidTestCompile 'com.android.support:support-annotations:23.1.1'
     androidTestCompile 'com.android.support.test:runner:0.4.1'
     androidTestCompile 'com.android.support.test:rules:0.4.1'
-
     compile 'com.google.android.gms:play-services-appindexing:8.4.0'
-
     compile 'com.google.android.gms:play-services-ads:8.4.0'
 }
