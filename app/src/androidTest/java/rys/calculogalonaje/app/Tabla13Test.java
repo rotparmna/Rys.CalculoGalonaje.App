@@ -14,17 +14,10 @@ import java.io.IOException;
  */
 public class Tabla13Test {
 
-    private TablaData _tabla13Data;
-
-    @Before
-    public void Setup(){
-        this._tabla13Data = new Tabla13DataMock();
-    }
-
     @Test
     public void GalonajeMenorACeroEsIgualACero() throws IOException, XmlPullParserException {
 
-        Tabla13 tabla13 = new Tabla13(this._tabla13Data);
+        Tabla13 tabla13 = new Tabla13();
         tabla13.setApi(20);
         tabla13.setPesoNeto(-2000);
 
@@ -34,7 +27,7 @@ public class Tabla13Test {
     @Test
     public void FactorNoexisteRetornaExcepcion()
     {
-        Tabla13 tabla13 = new Tabla13(this._tabla13Data);
+        Tabla13 tabla13 = new Tabla13();
         tabla13.setApi(-1);
         tabla13.setPesoNeto(2000);
 

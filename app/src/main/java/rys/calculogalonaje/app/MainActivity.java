@@ -51,14 +51,7 @@ public class MainActivity extends AppCompatActivity {
                                                     // Perform action on click
                                                     AssetManager assets = getAssets();
 
-                                                    InputStream xml = null;
-                                                    try {
-                                                        xml = assets.open("tabla13.xml");
-                                                    } catch (IOException e) {
-                                                        e.printStackTrace();
-                                                    }
-                                                    TablaData tabla13Data = new Tabla13Data(xml);
-                                                    Tabla13 tabla13 = new Tabla13(tabla13Data);
+                                                    Tabla13 tabla13 = new Tabla13();
                                                     API api = new API(txtAPI.getText().toString());
 
                                                     txtAPI.setText(api.getAPI());
