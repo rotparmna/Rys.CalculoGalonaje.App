@@ -1,6 +1,4 @@
-package rys.calculogalonaje.app;
-
-import static rys.calculogalonaje.app.Conversiones.GalonAmericanoABarrilAmericano;
+package rys.calculogalonaje2.app;
 
 /**
  * Created by User on 21/01/2016.

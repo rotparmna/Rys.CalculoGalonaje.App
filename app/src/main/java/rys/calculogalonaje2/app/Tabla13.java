@@ -1,8 +1,4 @@
-package rys.calculogalonaje.app;
-
-import org.xmlpull.v1.XmlPullParserException;
-
-import java.io.IOException;
+package rys.calculogalonaje2.app;
 
 /**
  * Created by Michael Navarro Ariza on 21/01/2016.

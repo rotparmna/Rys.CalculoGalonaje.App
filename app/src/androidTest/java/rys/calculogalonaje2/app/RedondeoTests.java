@@ -1,4 +1,4 @@
-package rys.calculogalonaje.app;
+package rys.calculogalonaje2.app;
 
 
 import junit.framework.Assert;

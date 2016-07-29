@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="rys.calculogalonaje.app"
+    package="rys.calculogalonaje2.app"
     android:versionCode="3"
     android:versionName="1.2">
 
@@ -12,7 +12,7 @@
         android:label="@string/app_name"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".MainActivity">
+        <activity android:name="rys.calculogalonaje2.app.MainActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 

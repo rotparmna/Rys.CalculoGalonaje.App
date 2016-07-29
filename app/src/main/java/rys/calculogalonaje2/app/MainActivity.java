@@ -1,9 +1,8 @@
-package rys.calculogalonaje.app;
+package rys.calculogalonaje2.app;
 
 import android.app.AlertDialog;
 import android.content.DialogInterface;
 import android.content.res.AssetManager;
-import android.content.res.Resources;
 import android.net.Uri;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
@@ -19,8 +18,6 @@ import com.google.android.gms.common.api.GoogleApiClient;
 import com.google.android.gms.ads.AdRequest;
 import com.google.android.gms.ads.AdView;
 
-import java.io.IOException;
-import java.io.InputStream;
 import java.text.MessageFormat;
 
 public class MainActivity extends AppCompatActivity {
@@ -116,7 +113,7 @@ public class MainActivity extends AppCompatActivity {
                 // Otherwise, set the URL to null.
                 Uri.parse("http://host/path"),
                 // TODO: Make sure this auto-generated app deep link URI is correct.
-                Uri.parse("android-app://rys.calculogalonaje.app/http/host/path")
+                Uri.parse("android-app://rys.calculogalonaje2.app/http/host/path")
         );
         AppIndex.AppIndexApi.start(client, viewAction);
     }
@@ -135,7 +132,7 @@ public class MainActivity extends AppCompatActivity {
                 // Otherwise, set the URL to null.
                 Uri.parse("http://host/path"),
                 // TODO: Make sure this auto-generated app deep link URI is correct.
-                Uri.parse("android-app://rys.calculogalonaje.app/http/host/path")
+                Uri.parse("android-app://rys.calculogalonaje2.app/http/host/path")
         );
         AppIndex.AppIndexApi.end(client, viewAction);
         client.disconnect();

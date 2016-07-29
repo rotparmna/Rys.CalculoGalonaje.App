@@ -1,7 +1,5 @@
-package rys.calculogalonaje.app;
+package rys.calculogalonaje2.app;
 
-import java.text.DecimalFormat;
-import java.text.NumberFormat;
 import java.util.regex.Pattern;
 
 /**

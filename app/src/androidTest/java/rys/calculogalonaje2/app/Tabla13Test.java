@@ -1,8 +1,7 @@
-package rys.calculogalonaje.app;
+package rys.calculogalonaje2.app;
 
 import junit.framework.Assert;
 
-import org.junit.Before;
 import org.junit.Test;
 import org.xmlpull.v1.XmlPullParserException;
 
